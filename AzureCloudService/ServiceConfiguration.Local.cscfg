@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureCloudService1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WCFServiceWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="MyWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="biajiaStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=biajiastorage;AccountKey=JQILJKiyp5qk6doQ4mZliYavmPZ3afRLV1+zaAqZwjgCHQ6QufYqfDEyiP9F4zfxbLQ2T/tM+axQI0c7t6tcgA==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
