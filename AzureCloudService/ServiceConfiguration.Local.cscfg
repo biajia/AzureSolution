@@ -10,7 +10,7 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="biajiaStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=biajiastorage;AccountKey=JQILJKiyp5qk6doQ4mZliYavmPZ3afRLV1+zaAqZwjgCHQ6QufYqfDEyiP9F4zfxbLQ2T/tM+axQI0c7t6tcgA==" />
+      <Setting name="biajiaStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=[AccountName];AccountKey=[AccountKey]" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
